@@ -4,7 +4,7 @@
   "description": "git提交之前使用运行一次package.json里的命令",
   "main": "index.js",
   "scripts": {
-    "postinstall": "node ./bin/test.js"
+    "postinstall": "node index.js"
   },
   "repository": {
     "type": "git",
