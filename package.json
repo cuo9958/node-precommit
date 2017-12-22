@@ -1,6 +1,6 @@
 {
   "name": "node-precommit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "git提交之前使用运行一次package.json里的命令",
   "main": "index.js",
   "scripts": {
