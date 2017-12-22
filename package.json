@@ -1,0 +1,19 @@
+{
+  "name": "node-precommit",
+  "version": "1.0.0",
+  "description": "git提交之前使用运行一次package.json里的命令",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node ./bin/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cuo9958/node-precommit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cuo9958/node-precommit/issues"
+  },
+  "homepage": "https://github.com/cuo9958/node-precommit#readme"
+}
