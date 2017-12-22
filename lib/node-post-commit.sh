@@ -2,4 +2,4 @@
 
 # 支持 sourcetree
 export PATH=/usr/local/bin:$PATH
-node "./node_modules/node-precommit/lib/node-commit.js"
+node "./node_modules/node-precommit/lib/node-post-commit.js"

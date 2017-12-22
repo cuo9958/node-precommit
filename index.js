@@ -14,8 +14,8 @@ fs.writeFileSync(gitPath + '/pre-commit', preCommitFile, {
     encoding: 'utf8',
     mode: 0o777
 });
-let CommitFile = fs.readFileSync(path.resolve(__dirname, './lib/node-commit.sh'));
-fs.writeFileSync(gitPath + '/prepare-commit-msg', CommitFile, {
+let CommitFile = fs.readFileSync(path.resolve(__dirname, './lib/node-post-commit.sh'));
+fs.writeFileSync(gitPath + '/post-commit', CommitFile, {
     encoding: 'utf8',
     mode: 0o777
 });

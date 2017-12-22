@@ -1,10 +1,11 @@
 {
   "name": "node-precommit",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "description": "git提交之前使用运行一次package.json里的命令",
   "main": "index.js",
   "scripts": {
-    "postinstall": "node index.js"
+    "postinstall": "node index.js",
+    "uninstall":"node uninstall.js"
   },
   "repository": {
     "type": "git",
