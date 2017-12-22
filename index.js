@@ -10,7 +10,7 @@ if (!fs.existsSync(gitPath)) {
 }
 
 let preCommitFile = fs.readFileSync(path.resolve(__dirname, './lib/node-precommit.sh'));
-fs.writeFileSync(gitPath + '/pre-commit', preCommitFile, {
+fs.writeFileSync(gitPath + '/prepare-commit-msg', preCommitFile, {
     encoding: 'utf8',
     mode: 0o777
 });
