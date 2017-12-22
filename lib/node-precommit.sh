@@ -2,4 +2,4 @@
 
 # 支持 sourcetree
 export PATH=/usr/local/bin:$PATH
-node "./node_modules/test-node/lib/node-precommit.js"
+node "./node_modules/node-precommit/lib/node-precommit.js"
