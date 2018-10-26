@@ -12,7 +12,7 @@ if (git_log.indexOf('update version') > 0) process.exit(0)
 
 const packageFile = __dirname + '/package.json';
 const bl = fs.existsSync(packageFile);
-if (!bl) return;
+if (!bl) return; 
 let config = fs.readFileSync(packageFile, {
     encoding: 'utf-8'
 })
